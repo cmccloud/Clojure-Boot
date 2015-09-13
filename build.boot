@@ -2,7 +2,8 @@
  :source-paths #{"src"}
  :resource-paths #{"html"}
  :dependencies '[[adzerk/boot-cljs "1.7.48-3" :scope "test"]
-                 [adzerk/boot-reload "0.3.2" :scope "test"]])
+                 [adzerk/boot-reload "0.3.2" :scope "test"]
+                 [reagent "0.5.1"]])
 
 (require '[adzerk.boot-cljs :refer :all]
          '[adzerk.boot-reload :refer :all])
